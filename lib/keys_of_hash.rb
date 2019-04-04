@@ -3,5 +3,5 @@ class Hash
     new_array = []
    new_array << "#{arguments}"
   end
-  return new_array
+   new_array
 end
