@@ -1,8 +1,6 @@
 class Hash
   def keys_of(*arguments)
-    new_array = *[]
-   new_array << arguments
-   new_array
+    return "#{*arguments}"
   end
    
 end
