@@ -4,5 +4,5 @@ class Hash
     puts "#{*arguments}"
     binding.pry
   end
-   arguments
+   
 end
