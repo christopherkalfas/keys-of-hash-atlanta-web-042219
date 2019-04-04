@@ -1,6 +1,6 @@
 class Hash
   def keys_of(*arguments)
-   "#{arguments.inspect}"
+   "#{arguments}"
   end
   return arguments
 end
