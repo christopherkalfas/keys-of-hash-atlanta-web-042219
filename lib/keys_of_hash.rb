@@ -8,5 +8,4 @@ class Hash
       end 
     end 
   end
-  new_array
 end
