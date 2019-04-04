@@ -4,7 +4,7 @@ class Hash
    
     self.each do |key, value|
       if arguments.include?(value)
-        return  key.flatten
+        key.flatten
       end 
     end 
   end
