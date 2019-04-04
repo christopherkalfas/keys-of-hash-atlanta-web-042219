@@ -5,6 +5,7 @@ class Hash
     self.each do |key, value|
       if arguments.include?(value)
         new_array << arguments
+        return new_array
       end 
     end 
   end
