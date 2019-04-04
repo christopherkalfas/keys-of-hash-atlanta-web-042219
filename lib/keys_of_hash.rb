@@ -4,8 +4,8 @@ class Hash
    new_array= []
     self.each do |key, value|
       if arguments.include?(value)
-        new_array << key
-        new_array.flatten
+        new_array.flatten << key
+       
       end 
     end 
   end
